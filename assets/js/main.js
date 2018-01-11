@@ -14,11 +14,21 @@ function handleTopNavAnimation() {
 	var top=$(window).scrollTop();
 
 	if(top>10){
-		$('#site-nav').addClass('navbar-solid'); 
-	}
+		$('#site-nav').addClass('navbar-solid');
+    }
 	else{
-		$('#site-nav').removeClass('navbar-solid'); 
+		$('#site-nav').removeClass('navbar-solid');
 	}
+
+    if(top>160){
+        $('#header-h5').removeClass('hidden');
+        $('#intro-h1').addClass('hidden');
+
+    }
+    else{
+        $('#header-h5').addClass('hidden');
+        $('#intro-h1').removeClass('hidden');
+    }
 }
 
 /*
