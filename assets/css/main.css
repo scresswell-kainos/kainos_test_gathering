@@ -631,3 +631,8 @@ ul li {
 .hidden {
   visibility: hidden;
 }
+
+.spacer {
+  background-color: #f7f7f7;
+  color: #0f0f0f;
+}
