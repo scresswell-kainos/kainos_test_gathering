@@ -573,7 +573,7 @@ ul li {
   }
 
   .grid-item-sm-3 {
-    width: 25%;
+    width: 20%;
   }
 
   .section-title {
@@ -594,7 +594,7 @@ ul li {
   }
 
   .grid-item-md-3 {
-    width: 25%;
+    width: 20%;
   }
 }
 /* 
@@ -662,4 +662,13 @@ ul li {
   color: #00b3ee;
   position: relative;
   display: block;
+}
+
+.four-pillar-icons {
+  padding:10px;
+  align-content: center;
+}
+
+.four-pillar-icons img {
+  width:30%;
 }
