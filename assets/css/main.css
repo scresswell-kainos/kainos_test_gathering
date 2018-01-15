@@ -636,3 +636,30 @@ ul li {
   background-color: #f7f7f7;
   color: #0f0f0f;
 }
+
+.schedule-box p {
+  padding-top: 8px;
+  margin-bottom: 3px;
+  color: #8c8c8c;
+  font-weight: 300;
+  font-size: medium;
+}
+
+.schedule-box a {
+  color: #00b3ee;
+  position: relative;
+  display: block;
+}
+
+.row .schedule-collapse {
+  background-color: #0f0f0f;
+  color: #FFFFFF;
+  padding:inherit;
+  padding-bottom: 4px;
+
+}
+.row .schedule-collapse a {
+  color: #00b3ee;
+  position: relative;
+  display: block;
+}
